@@ -5,42 +5,131 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Monster hunter</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+<!–Navbar–>
 
-  <header class="p-3 text-bg-dark">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-          <li><a href="Mounstros.html" class="nav-link px-2 text-white">Mounstros</a></li>
-          <li><a href="Armas.html" class="nav-link px-2 text-white">Armas</a></li>
-          <li><a href="acerca.html" class="nav-link px-2 text-white">Acerca de</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
-            aria-label="Search">
-        </form>
-
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
-        </div>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Tarea
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Mounstros.html">Mounstros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acerca.html">Acerca de</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+<!-–Carrusel–->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Astalos.jpg" class="d-block w-100" alt="50%">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Astalos</h5>
+        <p>Uno de los "Fated four"</p>
       </div>
     </div>
-  </header>
+    <div class="carousel-item">
+      <img src="Malzeno.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Malzeno</h5>
+        <p>Dragon anciano lider de los 3 señores</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="VMizu.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mizutsune Violeta</h5>
+        <p>Variante del mizutsune normal</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 
 
+
+
+El primer videojuego de Monster Hunter fue uno de los tres títulos que Capcom había desarrollado para aprovechar la capacidad de procesamiento y las capacidades en línea de la PlayStation 2. Según Ryozo Tsujimoto, quien ha sido el productor de la serie desde Monster Hunter Freedom 2, en ese entonces la consola había disminuido la brecha con los videojuegos arcade en capacidades; los otros dos títulos de este tipo fueron Auto Modellista y Resident Evil Outbreak. Tsujimoto consideró a Monster Hunter como la culminación del trabajo de estos otros dos títulos una vez que fue lanzado. También sintió que el videojuego estaba destinado a tal jugabilidad cooperativa para que los jugadores de cualquier nivel de habilidad, trabajando con otros, pudieran sentirse realizados al derrotar criaturas gigantes.7​ Monster Hunter fue un éxito, vendiendo más de 1 millón de copias, principalmente en Japón.
+
+La serie despegó de manera explosiva en Japón con Monster Hunter Freedom para PlayStation Portable, y más aún una vez que se lanzó su secuela Monster Hunter Freedom 2, que permitía hasta cuatro jugadores a través de la red ad hoc de la consola.8​ Generalmente, los sistemas portátiles son más populares en Japón y, debido a la alta densidad de población del país, fue fácil para los jugadores encontrar otras personas con las que podían cazar de forma cooperativa, lo que lo convirtió en un fenómeno en dicho país. James Miekle, que escribe para PC Gamer, trabajó para Q Entertainment y vivió en Japón durante el lanzamiento de Monster Hunter Portable 3rd, que fue el videojuego de PlayStation Portable más vendido de todos los tiempos y describió cómo, incluso durante el trabajo, los empleados realizaban sesiones improvisadas de Monster Hunter y hubo una amplia comercialización de los bienes de consumo de la franquicia.
+
+
+
+  <!–Footer–>
+      <div class="b-example-divider"></div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="Facebook.jpg" width="100%" height="50%" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <h5 class="card-title">Facebook</h5>
+            <a href="https://www.facebook.com/monsterhunter"><p class="card-text">Enlace a facebook aqui</p></a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="Insta.png" width="25%" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Instagram</h5>
+            <a href="https://www.instagram.com/monsterhuntergame/"><p class="card-text">Enlace a Instagram aqui</p></a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Youtube.jpg" width="100%" height="50%" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Youtube</h5>
+            <a href="https://www.youtube.com/user/monsterhunter"><p class="card-text">Enlace a youtube aqui</p></a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
